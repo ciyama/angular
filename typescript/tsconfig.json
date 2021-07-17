@@ -1,6 +1,10 @@
 {
     "compileOnSave": true,
     "compilerOptions": {
-      "outDir": "dist"
+      "outDir": "dist",
+      "noEmitOnError": false,
+      "typeRoots": [
+        "node_modules/@types"
+      ]
     }
 }
